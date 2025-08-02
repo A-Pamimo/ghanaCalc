@@ -1,0 +1,27 @@
+SPI ZONAL STATISTICS PROCESSING INFO
+==================================================
+
+Processing completed at: 2025-06-15 08:40:17
+Input NetCDF file: spi3_cleaned.nc
+Input shapefile: gha_admbnda_gss_20210308_shp/gha_admbnda_gss_20210308_SHP/gha_admbnda_adm2_gss_20210308.shp
+Time period processed: 2013-01-01 06:00:00 to 2017-12-01 06:00:00
+Number of time steps: 60
+Number of administrative units: 260
+Total output records: 15,600
+
+DATA QUALITY NOTES:
+- SPI data was cleaned to remove fill values (-9999) and extreme outliers
+- Problematic equatorial boundary cells were removed
+- SPI values were capped at ±4 for realistic drought/wet conditions
+- This cleaning was necessary due to data quality issues in the original dataset
+
+SPI INTERPRETATION:
+SPI >= 2.0:  Extremely wet conditions
+1.5 <= SPI < 2.0: Severely wet conditions
+1.0 <= SPI < 1.5: Moderately wet conditions
+0.5 <= SPI < 1.0: Mildly wet conditions
+-0.5 < SPI < 0.5: Normal conditions
+-1.0 < SPI <= -0.5: Mildly dry conditions
+-1.5 < SPI <= -1.0: Moderately dry conditions
+-2.0 < SPI <= -1.5: Severely dry conditions
+SPI <= -2.0: Extremely dry conditions

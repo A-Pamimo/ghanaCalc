@@ -1,0 +1,31 @@
+SPI ZONAL STATISTICS SUMMARY
+==================================================
+
+BASIC STATISTICS:
+Total records: 15,600
+Number of administrative units: 260
+Time period: 2013-01 to 2017-12
+Number of months: 60
+
+SPI VALUE STATISTICS:
+Mean SPI: 0.012
+Std SPI: 1.015
+Min SPI: -4.000
+Max SPI: 4.000
+
+SPI CATEGORY DISTRIBUTION:
+Extremely Dry: 235 (1.5%)
+Severely Dry: 462 (3.0%)
+Moderately Dry: 865 (5.5%)
+Mildly Dry: 1,378 (8.8%)
+Normal: 9,683 (62.1%)
+Mildly Wet: 1,565 (10.0%)
+Moderately Wet: 795 (5.1%)
+Severely Wet: 355 (2.3%)
+Extremely Wet: 262 (1.7%)
+
+DROUGHT SEVERITY DISTRIBUTION:
+Extreme Drought: 235 (1.5%)
+Severe Drought: 462 (3.0%)
+Moderate Drought: 865 (5.5%)
+No Drought: 14,038 (90.0%)
