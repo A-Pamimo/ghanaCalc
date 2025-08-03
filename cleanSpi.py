@@ -131,12 +131,21 @@ def clean_spi_data(file_path, output_path=None):
     return ds
 
 
-def plot_spi_summary(ds, save_path=None):
+def plot_spi_summary(ds, save_path=None, title="SPI3 Data Summary - Ghana"):
     """
     Create summary plots of the cleaned SPI data
+
+    Parameters
+    ----------
+    ds : xarray.Dataset
+        Dataset containing SPI3 data to summarize.
+    save_path : str, optional
+        Path to save the generated plot.
+    title : str, optional
+        Title for the summary figure. Defaults to "SPI3 Data Summary - Ghana".
     """
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    fig.suptitle('SPI3 Data Summary - Ethiopia', fontsize=16)
+    fig.suptitle(title, fontsize=16)
 
     # 1. Histogram of SPI values
     spi_values = ds['SPI3'].values.flatten()
